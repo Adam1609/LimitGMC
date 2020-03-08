@@ -1,0 +1,20 @@
+name: LimitGMC
+main: Limit\Main
+version: 2.0.1
+api: 3.0.0
+author: Bumbumkill
+description: CretiveLimit For PMMP
+
+permissions:
+ lgm.bypass.touch:
+  default: op
+  description: "Gives a player permission bypass Limit Touch"
+lgm.bypass.place:
+  default: op
+  description: "Gives a player permission bypass Limit Place"
+lgm.bypass.drop:
+  default: op
+  description: "Gives a player permission bypass Limit Drop"
+lgm.bypass.hit:
+  default: op
+  description: "Gives a player permission bypass Limit Hit"
