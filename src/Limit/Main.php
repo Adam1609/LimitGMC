@@ -63,7 +63,7 @@ class Main extends PluginBase implements Listener {
     public function onGameModeChange(PlayerGameModeChangeEvent $event) {
         $player = $event->getPlayer();
         $newGM = $event->getNewGamemode();
-        if ($newGM === 0){
+        if ($newGM === 0 && $newGM === 2){
             $player->getInventory()->clearAll(true);
             $player->getArmorInventory()->clearAll(true);
             $player->sendTip("§aYour inventory cleared");
